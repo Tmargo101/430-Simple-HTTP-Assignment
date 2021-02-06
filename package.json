@@ -1,0 +1,28 @@
+{
+  "name": "430-simple-http-assignment",
+  "version": "1.0.0",
+  "description": "Simple HTTP Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests complete!\"",
+    "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js",
+    "nodemon": "nodemon ./src/index.js -e js,html,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tmargo101/430-Simple-HTTP-Assignment.git"
+  },
+  "author": "Tom Margosian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tmargo101/430-Simple-HTTP-Assignment/issues"
+  },
+  "homepage": "https://github.com/Tmargo101/430-Simple-HTTP-Assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
